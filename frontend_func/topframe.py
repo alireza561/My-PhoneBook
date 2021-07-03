@@ -12,7 +12,7 @@ class TopFrame:
         self.clock = Label(self.top, font=("times", 12, "bold"), bg="white", width=15)
         self.clock.place(x=480, y=6)
 
-        self.Image = PhotoImage(file="D://Git_project//PhoneBook//image//pbb.png")
+        self.Image = PhotoImage(file="./image/pbb.png")
         self.label_image = Label(self.top, text="دفتر تلفن ", bg="white", fg="gray", font="arial 18 bold",
                             image=self.Image)
         self.label_image.config(compound=RIGHT)
